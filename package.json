@@ -1,13 +1,16 @@
+
 {
   "name": "peak-clans-http",
   "version": "1.0.0",
-  "description": "PEAK CLANS Discord HTTP Interactions bot using Express and SQLite, no Gateway connection",
-  "main": "src/index.js",
+  "description": "PEAK CLANS Discord HTTP Interactions bot",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "deploy-commands": "node src/deploy-commands.js"
+    "start": "node index.js",
+    "deploy-commands": "node deploy-commands.js"
   },
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "better-sqlite3": "^11.8.1",
     "discord.js": "^14.19.3",
